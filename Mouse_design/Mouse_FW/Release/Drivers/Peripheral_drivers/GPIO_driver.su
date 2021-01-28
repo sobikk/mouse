@@ -1,0 +1,7 @@
+GPIO_driver.c:11:6:GPIO_setMODER	8	static
+GPIO_driver.c:16:6:GPIO_setOTYPER	8	static
+GPIO_driver.c:21:6:GPIO_setOSPEEDR	8	static
+GPIO_driver.c:26:6:GPIO_setPUPDR	8	static
+GPIO_driver.c:31:6:GPIO_setALTFUNC	0	static
+GPIO_driver.c:44:6:GPIO_setState	0	static
+GPIO_driver.c:48:9:GPIO_getState	0	static

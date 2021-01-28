@@ -1,0 +1,2 @@
+SYSCFG_driver.c:12:6:SYSCFG_init	8	static
+SYSCFG_driver.c:17:6:SYSCFG_setEXTIConfig	32	static

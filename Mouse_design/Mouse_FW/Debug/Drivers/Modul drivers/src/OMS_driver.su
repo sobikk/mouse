@@ -1,0 +1,5 @@
+OMS_driver.c:17:6:OMS_init	24	static
+OMS_driver.c:73:13:OMS_downloadSROM	24	static
+OMS_driver.c:111:9:OMS_pollReadFromReg	16	static
+OMS_driver.c:141:6:OMS_pollWriteTOReg	16	static
+OMS_driver.c:168:6:OMS_sendByte	16	static

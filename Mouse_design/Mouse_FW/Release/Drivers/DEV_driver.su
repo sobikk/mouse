@@ -1,0 +1,4 @@
+DEV_driver.c:32:6:DEV_init	8	static
+DEV_driver.c:66:6:DEV_tick	8	static
+DEV_driver.c:82:6:updateButton	8	static
+DEV_driver.c:90:6:updatePositionAndWheel	0	static

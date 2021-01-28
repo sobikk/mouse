@@ -1,0 +1,7 @@
+DEV_driver.c:34:6:DEV_init	8	static
+DEV_driver.c:46:14:DEV_stateChanged	8	static
+DEV_driver.c:54:13:DEV_sendReport	8	static
+DEV_driver.c:63:13:updateOld	8	static
+DEV_driver.c:70:6:DEV_tick	8	static
+DEV_driver.c:86:6:updateButton	16	static
+DEV_driver.c:94:6:updatePositionAndWheel	16	static

@@ -1,0 +1,6 @@
+NVIC_driver.c:14:6:NVIC_setTIM16Line	0	static
+NVIC_driver.c:25:6:NVIC_setADCLine	0	static
+NVIC_driver.c:36:6:NVIC_setEXTILine	0	static
+NVIC_driver.c:93:6:EXTI4_15_IRQHandler	8	static
+NVIC_driver.c:97:6:ADC_COMP_IRQHandler	8	static
+NVIC_driver.c:101:6:TIM16_IRQHandler	8	static

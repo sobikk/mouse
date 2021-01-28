@@ -1,0 +1,5 @@
+ADC_driver.c:15:6:ADC_init	8	static
+ADC_driver.c:38:6:ADC_startConversion	8	static
+ADC_driver.c:42:6:ADC_interruptHandler	8	static
+ADC_driver.c:47:7:ADC_valueUpdated	8	static
+ADC_driver.c:56:10:getPressureRaw	8	static

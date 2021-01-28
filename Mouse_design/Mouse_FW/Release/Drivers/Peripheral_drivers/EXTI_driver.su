@@ -1,0 +1,6 @@
+EXTI_driver.c:14:6:EXTI_setInterrupt	8	static
+EXTI_driver.c:19:6:EXTI_setRisingEdge	8	static
+EXTI_driver.c:24:6:EXTI_setFallingEdge	8	static
+EXTI_driver.c:29:6:EXTI_resetPendingBit	0	static
+EXTI_driver.c:33:9:EXTI_getPendingBit	0	static
+EXTI_driver.c:39:6:EXTI_interruptHandler	8	static

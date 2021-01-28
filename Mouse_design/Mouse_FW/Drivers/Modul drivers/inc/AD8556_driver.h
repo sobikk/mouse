@@ -1,0 +1,64 @@
+/*
+ * AD8556_driver.h
+ *
+ *  Created on: Dec 30, 2020
+ *      Author: sobik
+ */
+
+#include <stdint.h>
+#include "GPIO_driver.h"
+
+#ifndef AD8556_DRIVER_H_
+#define AD8556_DRIVER_H_
+
+//pin definitions
+#define AD8556_DIGIN_GPIO							_GPIOB
+#define AD8556_DIGIN_PINNUM							9
+#define AD8556_AOUT_GPIO							_GPIOB
+#define AD8556_AOUT_PINNUM							0
+
+//length of sequences
+#define AD8556_SIZEOF_START_SEQ						12
+#define AD8556_SIZEOF_FUNC_SEQ						2
+#define AD8556_SIZEOF_PARAMETER_SEQ					2
+#define AD8556_SIZEOF_MIDDLE_SEQ					2
+#define AD8556_SIZEOF_VALUE_SEQ						8
+#define AD8556_SIZEOF_END_SEQ						12
+
+//constants
+#define AD8556_CONST_START_OF_PACKET				0x801U
+#define AD8556_CONST_END_OF_PACKET					0x7FEU
+#define AD8556_CONST_MIDDLE_OF_PACKET				0x2U
+
+//functions
+#define AD8556_FUNC_CHANGE_SENSE_CURRENT			0x0U
+#define AD8556_FUNC_SIMULATE_PARAMETER				0x1U
+#define AD8556_FUNC_PROGRAM_PARAMETER				0x2U
+#define AD8556_FUNC_READ_PARAMETER					0x3U
+
+//parameters
+#define AD8556_PARAM_SECOND_STAGE_GAIN				0x0U
+#define AD8556_PARAM_FIRST_STAGE_GAIN				0x1U
+#define AD8556_PARAM_OUTPUT_OFFSET					0x2U
+#define AD8556_PARAM_OTHER_FUNCTIONS				0x3U
+
+//values
+#define AD8556_FIRST_STAGE_GAIN_2_8					0U
+#define AD8556_FIRST_STAGE_GAIN_3_012				15U
+#define AD8556_FIRST_STAGE_GAIN_4_016				74U
+#define AD8556_FIRST_STAGE_GAIN_5_001				119U
+
+#define AD8556_SECOND_STAGE_GAIN_10					0x0U
+#define AD8556_SECOND_STAGE_GAIN_16					0x1U
+#define AD8556_SECOND_STAGE_GAIN_25					0x2U
+#define AD8556_SECOND_STAGE_GAIN_40					0x3U
+#define AD8556_SECOND_STAGE_GAIN_63					0x4U
+#define AD8556_SECOND_STAGE_GAIN_100				0x5U
+#define AD8556_SECOND_STAGE_GAIN_160				0x6U
+#define AD8556_SECOND_STAGE_GAIN_250				0x7U
+
+void AD8556_init(void);
+void AD8556_startADCConversion(void);
+uint16_t AD8556_getValue(void);
+
+#endif /* AD8556_DRIVER_H_ */

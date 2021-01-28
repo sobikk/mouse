@@ -1,0 +1,4 @@
+ADC_driver.c:14:6:ADC_init	8	static
+ADC_driver.c:35:6:ADC_startConversion	8	static
+ADC_driver.c:39:6:ADC_interruptHandler	8	static
+ADC_driver.c:44:7:ADC_valueUpdated	8	static

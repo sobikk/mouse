@@ -1,0 +1,7 @@
+AD8556_driver.c:19:6:AD8556_init	8	static
+AD8556_driver.c:31:13:setInAmp	40	static
+AD8556_driver.c:45:13:initGPIOs	8	static
+AD8556_driver.c:57:13:setBuffer	16	static
+AD8556_driver.c:73:13:sendBit	16	static
+AD8556_driver.c:87:10:AD8556_getValue	8	static
+AD8556_driver.c:93:6:AD8556_startADCConversion	8	static

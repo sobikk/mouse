@@ -1,0 +1,2 @@
+RCC_driver.c:11:6:RCC_initPCLK	16	static
+RCC_driver.c:16:6:RCC_initClockSystem	8	static

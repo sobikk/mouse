@@ -1,0 +1,8 @@
+SPI_driver.c:13:6:SPI_init	16	static
+SPI_driver.c:19:13:initGPIOs	24	static
+SPI_driver.c:37:6:SPI_slaveSelect	16	static
+SPI_driver.c:47:6:SPI_freeSlave	16	static
+SPI_driver.c:57:7:SPI_TxFifoEmpty	16	static
+SPI_driver.c:61:7:SPI_RxFifoEmpty	16	static
+SPI_driver.c:66:9:SPI_readByteRx	16	static
+SPI_driver.c:70:6:SPI_writeByteTx	16	static
